@@ -33,13 +33,13 @@
         <Button x:Name="btnRoot"
                 Grid.Row="2"
                 Content="√"
-                Background="LightGray"
+                Background="White"
                 Click="btnRoot_Click"/>
         <Button x:Name="btnSquare"
                 Grid.Row="2"
                 Grid.Column="1"
                 Content="x²"
-                Background="LightGray"
+                Background="White"
                 Click="btnSquare_Click"/>
         <Button x:Name="btnClearEntry"
                 Grid.Row="2"
@@ -74,7 +74,7 @@
         <Button x:Name="btnDivision" Grid.Row="3"
                 Grid.Column="3"
                 Content="/"
-                Background="LightGray"
+                Background="White"
                 Click="operationButton_Click"/>
 
         <Button x:Name="btn4"
@@ -98,7 +98,7 @@
                 Grid.Row="4"
                 Grid.Column="3"
                 Content="*"
-                Background="LightGray"
+                Background="White"
                 Click="operationButton_Click"/>
 
         <Button x:Name="btn1"
@@ -122,7 +122,7 @@
                 Grid.Row="5"
                 Grid.Column="3"
                 Content="+"
-                Background="LightGray"
+                Background="White"
                 Click="operationButton_Click"/>
 
         <Button x:Name="btn0"
@@ -133,13 +133,13 @@
         <Button x:Name="btnPoint" Grid.Row="6"
                 Grid.Column="1"
                 Content=","
-                Background="LightGray"
+                Background="White"
                 Click="regularButtonClick"/>
         <Button x:Name="btnSubtraction"
                 Grid.Row="6"
                 Grid.Column="2"
                 Content="-"
-                Background="LightGray"
+                Background="White"
                 Click="operationButton_Click"/>
         <Button x:Name="btnEquals"
                 Grid.Row="6"
