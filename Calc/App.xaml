@@ -22,7 +22,6 @@
             <Setter Property="BorderThickness" Value="1.5"/>
             <Setter Property="Height" Value="50"/>
             <Setter Property="TextAlignment" Value="Right"/>
-            <Setter Property="Text" Value="0"/>
             <Setter Property="IsReadOnly" Value="True"/>
             <Setter Property="BorderBrush" Value="Green"/>
         </Style>

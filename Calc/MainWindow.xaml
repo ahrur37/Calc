@@ -14,7 +14,7 @@
             <ColumnDefinition/>
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
-        
+
         <Grid.RowDefinitions>
             <RowDefinition/>
             <RowDefinition Height="auto"/>
@@ -24,26 +24,27 @@
             <RowDefinition Height="auto"/>
             <RowDefinition Height="auto"/>
         </Grid.RowDefinitions>
-
+        
         <TextBox x:Name="txtInput" 
                  Grid.Row="1" 
-                 Grid.ColumnSpan="4" />
+                 Grid.ColumnSpan="4"
+                 Text="{Binding Rez}"/>
 
         <Button x:Name="btnRoot"
                 Grid.Row="2"
                 Content="√"
                 Background="LightGray"
-                Click="operationButton_Click"/>
+                Click="btnRoot_Click"/>
         <Button x:Name="btnSquare"
                 Grid.Row="2"
                 Grid.Column="1"
                 Content="x²"
                 Background="LightGray"
-                Click="operationButton_Click"/>
+                Click="btnSquare_Click"/>
         <Button x:Name="btnClearEntry"
                 Grid.Row="2"
                 Grid.Column="2"
-                Content="CE"
+                Content="←"
                 Background="LightGray"
                 Click="btnClearEntry_Click"/>
         <Button x:Name="btnClearAll"
@@ -131,9 +132,9 @@
                 Click="regularButtonClick"/>
         <Button x:Name="btnPoint" Grid.Row="6"
                 Grid.Column="1"
-                Content="."
+                Content=","
                 Background="LightGray"
-                Click="btnPoint_Click"/>
+                Click="regularButtonClick"/>
         <Button x:Name="btnSubtraction"
                 Grid.Row="6"
                 Grid.Column="2"
