@@ -45,7 +45,7 @@
                 Grid.Row="2"
                 Grid.Column="2"
                 Content="←"
-                Background="LightGray"
+                Background="Orange"
                 Click="btnClearEntry_Click"/>
         <Button x:Name="btnClearAll"
                 Grid.Row="2"
